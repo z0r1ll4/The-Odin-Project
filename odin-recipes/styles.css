@@ -1,0 +1,35 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    color: purple;
+}
+
+.inline-list {
+    list-style-type: square;
+    /* display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0; */
+}
+
+.inline-list li {
+    color: #96383c;
+    /* display: inline-block; */
+    margin-right: 15px;
+    list-style-position: inside;
+}
+/* .inline-list li:last-child {
+    margin-right: 0;
+} */
+.inline-list a {
+    color: #96383c;
+    text-decoration: none;
+}
+.inline-list a:hover {
+    text-decoration: underline;
+}
+.inline-list a:visited {
+    color: #9aa13b;
+}
